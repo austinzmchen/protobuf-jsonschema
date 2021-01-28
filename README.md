@@ -1,3 +1,20 @@
+# !!! Forked and merged 2 PRs
+
+https://github.com/devongovett/protobuf-jsonschema/pull/2
+https://github.com/devongovett/protobuf-jsonschema/pull/14
+
+Works for 1 level of nested message like below, but not more.
+
+```
+message Foo {
+	message Bar {
+		...
+	}
+
+	...
+}
+```
+
 # protobuf-jsonschema
 
 Compiles [Protocol Buffer IDL](https://developers.google.com/protocol-buffers/docs/proto3)
