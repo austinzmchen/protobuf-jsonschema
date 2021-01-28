@@ -1,6 +1,6 @@
 {
   "name": "protobuf-jsonschema",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "description": "Compiles Protobuf IDL to JSON Schema",
   "main": "index.js",
   "bin": "cli.js",
